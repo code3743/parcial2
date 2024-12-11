@@ -1,20 +1,18 @@
-# SpringBoot Sqlite Demo
-The Springboot Project written under Sqlite
+# Informe
 
-# Installation & Runing
+## Estudiantes:
+- Jota Lopez Ramirez - 2259394
+- Esmeralda Rivas Guzmán - 2259580
 
-```bash
-mvn package
-java -jar target/sqlitedb-1.0-SNAPSHOT.jar
-```
+## Archivos
 
-# DB
+- ![Dockerfile](Dockerfile)
+- ![docker-compose.yml](docker-compose.yml)
 
-***user.db***
-```
-CREATE TABLE `usermapping` (
-  `TrelloName` varchar(45) NOT NULL,
-  `RtcName` varchar(45) NOT NULL,
-  PRIMARY KEY (`TrelloName`)
-);
-```
+## Capturas del funcionamiento
+
+![Pagina de inicio](image.png)
+
+![Formulario](image-1.png)
+
+![Pruebas](image-2.png)
